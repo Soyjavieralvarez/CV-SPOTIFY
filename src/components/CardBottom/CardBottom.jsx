@@ -20,7 +20,7 @@ const CardBottom = () => {
       <a href="#experience">
       <TbPlayerTrackPrev />
       </a>
-        <a href="https://open.spotify.com/track/6JzzaXLq66zixh52ZsbUfn?si=llxdJGOhQn2IfJxajzwv6g&context=spotify%3Aplaylist%3A53ADQz9YoHQqpgoBBQFEIb">
+        <a href="https://open.spotify.com/track/4uUG5RXrOk84mYEfFvj3cK?si=92f98c883b9446ee">
           <SlControlPlay />
         </a>
         <a href="#portfolio">
