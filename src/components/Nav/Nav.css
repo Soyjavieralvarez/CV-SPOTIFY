@@ -1,0 +1,27 @@
+.nav__box{
+    margin:20px;
+    /* border: solid 1px white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align:left;
+    gap:0.8rem;
+    position:absolute;
+    top:28rem;
+}
+
+.nav__info{
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--color-white);
+}
+
+.nav__info a{
+    margin:25px;
+    color: var(--color-primary);
+}
+

@@ -1,0 +1,13 @@
+.hero{
+    /* border:solid 2px rgb(218, 35, 35); */
+    display: flex;
+    justify-content: center;
+}
+
+.hero__info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: var(--color-bg);
+    width: 100%;
+}

@@ -1,0 +1,43 @@
+.song{
+    padding:10px;
+    display: flex;
+    background: linear-gradient(to bottom, #176a40,#040404);
+}
+
+.resume{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.resume__disc{
+    padding:10px;
+}
+
+.resume-text{
+    padding:5px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.resume__p{
+    color: white;
+}
+
+.resume__love{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.song__reproductor{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+}

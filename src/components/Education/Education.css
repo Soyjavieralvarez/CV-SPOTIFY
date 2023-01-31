@@ -1,0 +1,35 @@
+.education__box{
+    padding-left: 200px;
+    /* border:solid 4px yellow; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background:black;
+}
+
+
+.education__info{
+    /* border: solid 1px white; */
+    margin-top:15px;
+    padding:10px;
+}
+
+.education__h2{
+    /* border: solid 1px red; */
+    font-size: 1.5rem;
+    padding:10px;
+    color: var(--color-light)
+}
+
+.education__h3{
+    font-size: 1rem;
+    padding:5px;
+    color: var(--color-light)
+}
+
+.education__p{
+    font-size: 1rem;
+    padding:5px;
+    color: var(--color-light)
+}
+
