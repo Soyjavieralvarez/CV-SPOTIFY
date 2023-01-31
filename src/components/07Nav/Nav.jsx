@@ -1,5 +1,5 @@
 import React from "react";
-import "../Nav/Nav.css";
+import "./Nav.css";
 import { useState } from "react";
 
 const Nav = () => {
@@ -8,13 +8,13 @@ const Nav = () => {
   return (
     <section className="nav__box">
         <div className="nav__info">
-        <a
+        {/* <a
             href="#about"
             onClick={() => setActiveNav("about")}
             className={activeNav === "about" ? "active" : ""}
           >
             About
-          </a>
+          </a> */}
           <a
             href="#education"
             onClick={() => setActiveNav("#education")}
@@ -44,7 +44,7 @@ const Nav = () => {
             onClick={() => setActiveNav("#")}
             className={activeNav === "#" ? "active" : ""}
           >
-           Formulario
+           Contacto
           </a>
         </div>
     </section>

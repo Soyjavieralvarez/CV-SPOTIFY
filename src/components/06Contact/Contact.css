@@ -1,0 +1,180 @@
+#contact{
+    /* border:solid 1px white; */
+    padding-top:20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.contact__text{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.contact__container{
+    /* border: solid 1px red; */
+    width:40%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    padding:20px;
+    background-color: black;
+}
+
+.contact__options{
+    /* border: solid 1px white; */
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+
+}
+
+.contact__option{
+    /* border: solid 1px yellow; */
+    width:50%;
+    padding:1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    transition: (--transtion);
+}
+
+.contact__option-icon{
+    font-size: 4rem;
+    background-color: var(--color-primary);
+    padding:1rem;
+    border-radius:5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact__option h5{
+    margin:10px;
+}
+
+.contact__option a{
+    /* border: solid 1px red; */
+    margin-top:20rem;
+    font-size: 1rem;
+    color: var(--color-primary);
+}
+
+
+/* FORM */
+
+.form__box{
+    /* border: solid 2px green; */
+    width:50%;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+}
+
+form{
+    /* border:solid 1px white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+input, textarea {
+    width:30%;
+    padding:1.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(23, 23, 23);
+    border: 1px solid var(--color-primary);
+    resize:none;
+    color: white;
+}
+
+.form__text{
+    padding:2rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.form__btn{
+    padding:1rem;
+    color: white;
+    background-color: black;
+    font-size: 1rem;
+    border: solid 3px var(--color-primary);
+    border-radius: 0.5rem;
+}
+
+/* ======= Media Queries ====== */
+
+@media screen and (max-width: 600px) { 
+    #contact{
+        padding-top:0px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+    }
+
+    .contact__text{
+        padding:5px;
+        font-size: 1.5rem;
+    }
+
+    .contact__container{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding:0px;
+        background-color: black;
+    }
+
+    .contact__options{
+        padding:0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap:1rem;
+    
+    }
+
+    .contact__option h5{
+        display:none;
+    }
+
+    /* FORM */
+
+.form__box{
+    /* border: solid 2px green; */
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+input, textarea {
+    width:50%;
+    padding:1rem;
+    border-radius: 1rem;
+}
+
+.form__text{
+    padding:2rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+}

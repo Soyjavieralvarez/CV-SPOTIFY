@@ -1,7 +1,7 @@
 import React from 'react'
 import './Card.css'
 import ME from "../../assets/Me.png";
-import CTA from '../Hero/CTA';
+import CTA from '../00Hero/CTA';
 
 
 const Card = () => {
@@ -21,7 +21,5 @@ const Card = () => {
     </section>
   )
 }
-
-
 
 export default Card

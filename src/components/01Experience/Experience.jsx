@@ -7,6 +7,7 @@ const Experience = ({ experience }) => {
       
       {experience.map((experience, index) => 
       <div className="experience__info" key={index}>
+      <img className="experience__logo" src={experience.logo} alt="logo experiencia"/> 
         <h2 className="experience__h2">{experience.job}</h2>
         <h2 className="experience__h2">{experience.enterprise}</h2>
         <h2 className="experience__h2">{experience.where}</h2>

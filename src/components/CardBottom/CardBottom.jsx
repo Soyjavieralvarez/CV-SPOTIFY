@@ -12,8 +12,8 @@ const CardBottom = () => {
     <div className="resume">
       <img src={ME2} className="resume__disc" alt="foto disco Izal"></img>
       <div className="resume-text">
-        <div className="resume__p">Magia & Efectos Especiales</div>
-        <div className="resume__p">Izal</div>
+        <div className="resume__p">Javier Álvarez</div>
+        <div className="resume__p">Full Stack Developer</div>
         <div className="resume__love"></div>
       </div>
       <div className="song__reproductor">

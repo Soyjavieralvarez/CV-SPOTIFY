@@ -1,0 +1,32 @@
+.habilities__container{
+    /* border:solid 1px white; */
+    padding-left:300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    width:100%;
+    background-color: black;
+}
+
+
+.habilities__info{
+    /* border: solid 1px red; */
+    padding:10px;
+    margin:20px;
+    font-size: 0.80rem;
+    width: 75%;
+    background: #99c2392a;
+    border-radius: 1rem;
+}
+
+
+/* ======= Media Queries ====== */
+
+@media screen and (max-width: 600px) { 
+    .habilities__container{
+        display: none;
+    }
+}

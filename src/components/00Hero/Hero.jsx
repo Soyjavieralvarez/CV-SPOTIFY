@@ -1,5 +1,5 @@
 import React from "react";
-import '../Hero/Hero.css'
+import '../00Hero/Hero.css'
 import Card from "../Card/Card";
 
 const Hero = ({ hero }) => {
