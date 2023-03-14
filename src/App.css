@@ -11,6 +11,7 @@
   /* background-color: var(--color-bg-variant); */
   color: var(--color-white);
   font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -27,10 +28,6 @@
   --container-width-lg: 75%;
   --container--width-md: 86%;
   --container--width-sm: 90%;
-};
-
-html {
-  scroll-behavior: smooth;
 };
 
 ::-webkit-scrollbar {

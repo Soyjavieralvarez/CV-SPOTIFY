@@ -76,34 +76,40 @@ export const CV = {
   ],
   portfolio: [
     {
+      project: "Slack",
       logo:"https://www.citypng.com/public/uploads/preview/js-javascript-round-logo-icon-png-11662226392lsrrajcm0y.png",
-      url: "Trabajo 1",
-      lenguajes: "JavaScript",
-    },
-    {
-      logo:"https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png",
-      url: "Trabajo 2",
+      url: "https://slack-mac.vercel.app/",
       lenguajes: "HTML y CSS",
     },
     {
-      logo:"https://ih1.redbubble.net/image.404029208.2135/st,small,507x507-pad,600x600,f8f8f8.u1.jpg",
-      url: "Trabajo 3",
-      lenguajes: "HTML, CSS y Node",
-    },
-    {
-      logo:"https://www.citypng.com/public/uploads/preview/js-javascript-round-logo-icon-png-11662226392lsrrajcm0y.png",
-      url: "Trabajo 1",
-      lenguajes: "JavaScript",
-    },
-    {
+      project: "Lista To-Do",
       logo:"https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png",
-      url: "Trabajo 2",
+      url: "https://to-do-mejorado.vercel.app/",
       lenguajes: "HTML y CSS",
     },
     {
+      project: "Netflix",
       logo:"https://ih1.redbubble.net/image.404029208.2135/st,small,507x507-pad,600x600,f8f8f8.u1.jpg",
-      url: "Trabajo 3",
+      url: "https://netflix-angular-eight.vercel.app/",
       lenguajes: "HTML, CSS y Node",
+    },
+    {
+      project: "Librería",
+      logo:"https://www.citypng.com/public/uploads/preview/js-javascript-round-logo-icon-png-11662226392lsrrajcm0y.png",
+      url: "https://angular-books-mqdx.vercel.app/",
+      lenguajes: "HTML, CSS y Angular",
+    },
+    {
+      project: "PokeApi",
+      logo:"https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png",
+      url: "https://poke-api-con-beatriz.vercel.app/",
+      lenguajes: "HTML, CSS y JavaScript",
+    },
+    {
+      project: "Api Rick and Morty",
+      logo:"https://ih1.redbubble.net/image.404029208.2135/st,small,507x507-pad,600x600,f8f8f8.u1.jpg",
+      url: "",
+      lenguajes: "HTML, CSS y Angular",
     },
   ],
   
